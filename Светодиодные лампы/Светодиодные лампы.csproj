@@ -59,6 +59,15 @@
     <Compile Include="Cheque.xaml.cs">
       <DependentUpon>Cheque.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Авторизация.xaml.cs">
+      <DependentUpon>Авторизация.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Меню.xaml.cs">
+      <DependentUpon>Меню.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Пользовательское соглашение.xaml.cs">
+      <DependentUpon>Пользовательское соглашение.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Регистрация.xaml.cs">
       <DependentUpon>Регистрация.xaml</DependentUpon>
     </Compile>
@@ -78,6 +87,18 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Авторизация.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Меню.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Пользовательское соглашение.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Регистрация.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
